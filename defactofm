@@ -1,0 +1,49 @@
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+@media (max-width: 720px)
+section {
+    padding: 10px;
+}
+@media (max-width: 769px)
+section {
+    padding: 30px;
+}
+@media (max-width: 769px)
+section {
+    padding: 20px;
+}
+section {
+    position: relative;
+    padding: 100px;
+}
+<style>
+* {
+    cursor: url(data:image/png;base64,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) 0 0 , auto;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+user agent stylesheet
+section {
+    display: block;
+}
+.banner:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    background: linear-gradient(to top, #111, transparent);
+}
